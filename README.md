@@ -10,18 +10,19 @@
 - _You will need to have [NodeJS](https://nodejs.org/) installed of course!_
 - Get a [Steam API Key](https://steamcommunity.com/dev/apikey)
 - Put your API Key in the config (either in mod-dump.js or add a config.json)
-_example config.json_
+_example config.json_  
 ```json
-{
-    "api_key":"YOUR_API_KEY",
-    "app_id":346110,
-    "full_desc":false,
-    "date_locale":"en-us",
-    "use_utc_iso":false,
-    "delimiter":"\t",
-    "out_file_name":"steammods.tsv"
-}```
-_Only the 'api_key' must be set, the rest are defaults. Ark's appid is 346110._
+    {
+        "api_key":"YOUR_API_KEY",
+        "app_id":346110,
+        "full_desc":false,
+        "date_locale":"en-us",
+        "use_utc_iso":false,
+        "delimiter":"\t",
+        "out_file_name":"steammods.tsv"
+    }```  
+
+_Only the 'api_key' must be set, the rest are defaults. Ark's appid is 346110._  
 
 ## Usage
 Run 'mod-dump.js' and wait for it to finish.
@@ -42,8 +43,9 @@ Skipping Invalid Mod [{"result":9,"publishedfileid":"1254141687","language":0}]
 Skipping Invalid Mod [{"result":9,"publishedfileid":"2147560794","language":0}]
 Skipping Invalid Mod [{"result":9,"publishedfileid":"2250776941","language":0}]
 Writing [11612] to file: K:\GitHub\SteamMods\steammods.tsv
-```
-_There will usually be a few invalid mod results from Steam._
+```  
 
-The mod info will be output in tab separated format. 
+_There will usually be a few invalid mod results from Steam._  
+
+The mod info will be output in tab separated format.  
 You can edit the values in mod-dump.js to change columns, delimiter, etc. 
