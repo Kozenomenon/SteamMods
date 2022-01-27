@@ -9,7 +9,7 @@
 ## Setup
 - _You will need to have [NodeJS](https://nodejs.org/) installed of course!_
 - Get a [Steam API Key](https://steamcommunity.com/dev/apikey)
-- Put your API Key in the config (either in mod-dump.js or add a config.json)
+- Put your API Key in the config (either in mod-dump.js or add a config.json)  
 _example config.json_  
 ```JSON
 {
